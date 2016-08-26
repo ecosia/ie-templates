@@ -12,30 +12,10 @@ POLICY !!PopulateSearchProviderList
 		CHECKBOX VALUENAME EcosiaCheck
 		ACTIONLISTON
 			KEYNAME "Software\Policies\Microsoft\Internet Explorer\SearchScopes\{768c2224-8616-4617-8fbf-6715dab7bc28}"
-			VALUENAME DisplayName VALUE "Ecosia"	
+			VALUENAME DisplayName VALUE "Ecosia"
 			VALUENAME URL VALUE "https://www.ecosia.org/search?q={searchTerms}&addon=iegpo"
 			VALUENAME FaviconURL VALUE "https://d3mobp9w9ljhax.cloudfront.net/assets/images/ico/favicon.ico"
 			VALUENAME SuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&market={language}"
-		END ACTIONLISTON
-	END PART
-
-	PART "Bing"
-		CHECKBOX VALUENAME BingCheck
-		ACTIONLISTON
-			KEYNAME "Software\Policies\Microsoft\Internet Explorer\SearchScopes\{c57fc1ec-c39c-45a0-90d2-80423a969d1a}"
-			VALUENAME DisplayName VALUE "Bing"
-			VALUENAME FaviconURL VALUE "http://www.bing.com/favicon.ico"
-			VALUENAME FaviconURLFallback VALUE "http://www.bing.com/favicon.ico"
-			VALUENAME NTLogoPath VALUE "C:\Users\IEUser\AppData\LocalLow\Microsoft\Internet Explorer\Services\"
-			VALUENAME NTLogoURL VALUE "http://go.microsoft.com/fwlink/?LinkID=403856&language={language}&scale={scalelevel}&contrast={contrast}"
-			VALUENAME NTSuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&market={language}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&FORM=IENTSS"
-			VALUENAME NTTopResultURL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-SearchBox&FORM=IENTTR"
-			VALUENAME NTURL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-SearchBox&FORM=IENTSR"
-			VALUENAME SuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&FORM=IESS02&market={language}"
-			VALUENAME SuggestionsURLFallback VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&FORM=IESS02&market={language}"
-			VALUENAME TopResultURL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-TopResult&FORM=IETR02"
-			VALUENAME TopResultURLFallback VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-TopResult&FORM=IETR02"
-			VALUENAME URL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-SearchBox&FORM=IESR02"
 		END ACTIONLISTON
 	END PART
 END POLICY
@@ -55,30 +35,10 @@ POLICY !!PopulateSearchProviderList
 		CHECKBOX VALUENAME EcosiaCheck
 		ACTIONLISTON
 			KEYNAME "Software\Policies\Microsoft\Internet Explorer\SearchScopes\{768c2224-8616-4617-8fbf-6715dab7bc28}"
-			VALUENAME DisplayName VALUE "Ecosia"	
+			VALUENAME DisplayName VALUE "Ecosia"
 			VALUENAME URL VALUE "https://www.ecosia.org/search?q={searchTerms}&addon=iegpo"
 			VALUENAME FaviconURL VALUE "https://d3mobp9w9ljhax.cloudfront.net/assets/images/ico/favicon.ico"
 			VALUENAME SuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&market={language}"
-		END ACTIONLISTON
-	END PART
-
-	PART "Bing"
-		CHECKBOX VALUENAME BingCheck
-		ACTIONLISTON
-			KEYNAME "Software\Policies\Microsoft\Internet Explorer\SearchScopes\{c57fc1ec-c39c-45a0-90d2-80423a969d1a}"
-			VALUENAME DisplayName VALUE "Bing"
-			VALUENAME FaviconURL VALUE "http://www.bing.com/favicon.ico"
-			VALUENAME FaviconURLFallback VALUE "http://www.bing.com/favicon.ico"
-			VALUENAME NTLogoPath VALUE "C:\Users\IEUser\AppData\LocalLow\Microsoft\Internet Explorer\Services\"
-			VALUENAME NTLogoURL VALUE "http://go.microsoft.com/fwlink/?LinkID=403856&language={language}&scale={scalelevel}&contrast={contrast}"
-			VALUENAME NTSuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&market={language}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&FORM=IENTSS"
-			VALUENAME NTTopResultURL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-SearchBox&FORM=IENTTR"
-			VALUENAME NTURL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-SearchBox&FORM=IENTSR"
-			VALUENAME SuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&FORM=IESS02&market={language}"
-			VALUENAME SuggestionsURLFallback VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&FORM=IESS02&market={language}"
-			VALUENAME TopResultURL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-TopResult&FORM=IETR02"
-			VALUENAME TopResultURLFallback VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-TopResult&FORM=IETR02"
-			VALUENAME URL VALUE "http://www.bing.com/search?q={searchTerms}&src=IE-SearchBox&FORM=IESR02"
 		END ACTIONLISTON
 	END PART
 END POLICY
