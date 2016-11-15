@@ -4,7 +4,7 @@ This repository includes configuration files that can be used to create Active D
 
 ## Usage
 
-For detailed instructions on how to use this repository to install Group Policies for your Active Directory domain, please see [our knowledge base article](https://ecosia.zendesk.com/knowledge/articles/211813325).
+For detailed instructions on how to use this repository to install Group Policies for your Active Directory domain, please see [our knowledge base article](https://ecosia.zendesk.com/hc/articles/211813325).
 
 ## Directory structure
 ```
