@@ -14,7 +14,7 @@ POLICY !!PopulateSearchProviderList
 			KEYNAME "Software\Policies\Microsoft\Internet Explorer\SearchScopes\{768c2224-8616-4617-8fbf-6715dab7bc28}"
 			VALUENAME DisplayName VALUE "Ecosia"
 			VALUENAME URL VALUE "https://www.ecosia.org/search?q={searchTerms}&addon=iegpo"
-			VALUENAME FaviconURL VALUE "https://d3mobp9w9ljhax.cloudfront.net/assets/images/ico/favicon.ico"
+			VALUENAME FaviconURL VALUE "https://cdn.ecosia.org/assets/images/ico/favicon.ico"
 			VALUENAME SuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&market={language}"
 		END ACTIONLISTON
 	END PART
@@ -37,7 +37,7 @@ POLICY !!PopulateSearchProviderList
 			KEYNAME "Software\Policies\Microsoft\Internet Explorer\SearchScopes\{768c2224-8616-4617-8fbf-6715dab7bc28}"
 			VALUENAME DisplayName VALUE "Ecosia"
 			VALUENAME URL VALUE "https://www.ecosia.org/search?q={searchTerms}&addon=iegpo"
-			VALUENAME FaviconURL VALUE "https://d3mobp9w9ljhax.cloudfront.net/assets/images/ico/favicon.ico"
+			VALUENAME FaviconURL VALUE "https://cdn.ecosia.org/assets/images/ico/favicon.ico"
 			VALUENAME SuggestionsURL VALUE "http://api.bing.com/qsml.aspx?query={searchTerms}&maxwidth={ie:maxWidth}&rowheight={ie:rowHeight}&sectionHeight={ie:sectionHeight}&market={language}"
 		END ACTIONLISTON
 	END PART
